@@ -10,10 +10,10 @@
 
 ## Additional Details ✅
 
-- Install `react-router-dom` and create two routes: one for the login page *(/login)* and one for the To Do List page *(/todos)*.
+- Install `react-router-dom` and create two routes: one for the login or home page *(/)* and one for the To Do List page *(/todos)*.
 - Use **context** to store the user's name *(string)* and login status *(boolean)*. Pressing the Login button will update the context and redirect the user to the To Do List page.
 - The Logout button will clear the user's name and set the login status to `false`.
-- If the user is logged in, they will see the To Do List page. If not, they will be redirected to the Login page.
+- If the user is logged in, they will see the To Do List page. If not, they will be redirected to the Login/Home page.
 - Don't store the todos array in the context or in an external database. Just store it in the component locally using `useState`. So the array will just reset every time you log out.
 - Install and use **[Tailwind CSS](https://tailwindcss.com/docs/installation/using-vite)** to recreate the design as close as possible.
 - Feel free to use any number of components and additional packages such as `react-hot-toast` and `uuid` for the exercise.
